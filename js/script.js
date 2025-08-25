@@ -202,3 +202,137 @@ if ('IntersectionObserver' in window) {
         imageObserver.observe(img);
     });
 }
+
+// Blog Category Filter
+const categoryButtons = document.querySelectorAll('.category-btn');
+const articleCards = document.querySelectorAll('.article-card');
+
+if (categoryButtons.length > 0) {
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove active class from all buttons
+            categoryButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            button.classList.add('active');
+            
+            const category = button.getAttribute('data-category');
+            
+            articleCards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeIn 0.5s ease';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+}
+
+// Load More Articles Functionality
+let articlesVisible = 6; // Initially show 6 articles
+const loadMoreBtn = document.querySelector('.load-more-btn');
+const allArticles = document.querySelectorAll('.article-card');
+
+if (loadMoreBtn && allArticles.length > 0) {
+    // Initially hide articles beyond the first 6
+    allArticles.forEach((article, index) => {
+        if (index >= articlesVisible) {
+            article.style.display = 'none';
+        }
+    });
+    
+    // Hide load more button if there are 6 or fewer articles
+    if (allArticles.length <= articlesVisible) {
+        loadMoreBtn.style.display = 'none';
+    }
+    
+    loadMoreBtn.addEventListener('click', () => {
+        // Add loading state
+        const originalText = loadMoreBtn.textContent;
+        loadMoreBtn.textContent = 'Loading...';
+        loadMoreBtn.disabled = true;
+        loadMoreBtn.style.opacity = '0.7';
+        
+        setTimeout(() => {
+            const hiddenArticles = Array.from(allArticles).filter(article => 
+                article.style.display === 'none' || 
+                getComputedStyle(article).display === 'none'
+            );
+            
+            // Show next 3 articles
+            const articlesToShow = hiddenArticles.slice(0, 3);
+            
+            articlesToShow.forEach((article, index) => {
+                setTimeout(() => {
+                    article.style.display = 'block';
+                    article.style.animation = 'fadeInUp 0.6s ease';
+                }, index * 150); // Stagger the animation
+            });
+            
+            articlesVisible += 3;
+            
+            // Reset button state
+            loadMoreBtn.textContent = originalText;
+            loadMoreBtn.disabled = false;
+            loadMoreBtn.style.opacity = '1';
+            
+            // Hide load more button if no more articles to show
+            if (hiddenArticles.length <= 3) {
+                setTimeout(() => {
+                    loadMoreBtn.style.animation = 'fadeOut 0.5s ease';
+                    setTimeout(() => {
+                        loadMoreBtn.style.display = 'none';
+                    }, 500);
+                }, 600);
+            }
+            
+            // Smooth scroll to show new articles
+            if (articlesToShow.length > 0) {
+                setTimeout(() => {
+                    articlesToShow[0].scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center'
+                    });
+                }, 600);
+            }
+        }, 800); // Simulate loading time
+    });
+}
+
+// Add CSS animations for article loading
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+            transform: scale(1);
+        }
+        to {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+    }
+    
+    .load-more-btn:disabled {
+        cursor: not-allowed;
+        transform: none !important;
+    }
+`;
+document.head.appendChild(style);

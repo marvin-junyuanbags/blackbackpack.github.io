@@ -1,0 +1,67 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Laptop backpack body -->
+  <rect x="20" y="22" width="40" height="40" rx="3" fill="#374151" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Main laptop compartment -->
+  <rect x="23" y="25" width="34" height="25" rx="2" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Laptop outline -->
+  <rect x="26" y="28" width="28" height="18" rx="1" fill="#6b7280"/>
+  <rect x="28" y="30" width="24" height="14" fill="#000000"/>
+  
+  <!-- Screen bezel -->
+  <rect x="29" y="31" width="22" height="12" fill="#1f2937"/>
+  
+  <!-- Apple logo or brand -->
+  <circle cx="40" cy="37" r="2" fill="#9ca3af"/>
+  
+  <!-- Keyboard area -->
+  <rect x="28" y="45" width="24" height="2" fill="#374151"/>
+  
+  <!-- Front organizer pocket -->
+  <rect x="25" y="52" width="30" height="8" rx="2" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Pen holders -->
+  <circle cx="28" cy="56" r="1" fill="#ef4444"/>
+  <circle cx="31" cy="56" r="1" fill="#3b82f6"/>
+  <circle cx="34" cy="56" r="1" fill="#10b981"/>
+  
+  <!-- Business card slot -->
+  <rect x="45" y="54" width="8" height="4" rx="1" fill="#6b7280" stroke="#4b5563" stroke-width="0.5"/>
+  
+  <!-- USB cable management -->
+  <circle cx="50" cy="48" r="1.5" fill="#9ca3af"/>
+  <path d="M48 48 Q52 46 54 48" stroke="#6b7280" stroke-width="1" fill="none"/>
+  
+  <!-- Zipper -->
+  <line x1="27" y1="56" x2="53" y2="56" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="52" cy="56" r="1.5" fill="#9ca3af"/>
+  
+  <!-- Handle -->
+  <path d="M35 22 Q35 17 40 17 Q45 17 45 22" stroke="#1f2937" stroke-width="3" fill="none"/>
+  
+  <!-- Padded shoulder straps -->
+  <path d="M25 27 Q15 22 18 10 Q22 7 25 17" stroke="#1f2937" stroke-width="3" fill="none"/>
+  <path d="M55 27 Q65 22 62 10 Q58 7 55 17" stroke="#1f2937" stroke-width="3" fill="none"/>
+  
+  <!-- Strap padding -->
+  <ellipse cx="18" cy="15" rx="2" ry="4" fill="#6b7280"/>
+  <ellipse cx="62" cy="15" rx="2" ry="4" fill="#6b7280"/>
+  
+  <!-- Side pocket for charger -->
+  <ellipse cx="15" cy="40" rx="3" ry="8" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Charger cable -->
+  <path d="M13 38 Q15 36 17 38 Q15 40 13 42" stroke="#000000" stroke-width="1.5" fill="none"/>
+  
+  <!-- TSA-friendly design indicator -->
+  <rect x="30" y="65" width="20" height="3" rx="1" fill="#10b981"/>
+  <text x="40" y="68" text-anchor="middle" font-size="3" fill="white">TSA</text>
+  
+  <!-- Laptop size indicator -->
+  <text x="40" y="40" text-anchor="middle" font-size="4" fill="#9ca3af">15"</text>
+  
+  <!-- RFID blocking pocket -->
+  <rect x="48" y="30" width="4" height="6" rx="1" fill="#ef4444" stroke="#dc2626" stroke-width="0.5"/>
+  <text x="50" y="34" text-anchor="middle" font-size="2" fill="white">RFID</text>
+</svg>
