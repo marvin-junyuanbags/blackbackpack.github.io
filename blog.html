@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backpack Industry Blog | Black Backpack - Expert Insights & Guides</title>
+    <title>Backpack Industry Blog | blackbackpack.co.uk - Expert Insights & Guides</title>
     <meta name="description" content="Explore our comprehensive blog covering backpack industry trends, manufacturing insights, design guides, and expert advice for businesses and professionals.">
     <meta name="keywords" content="backpack blog, industry insights, manufacturing guides, design trends, B2B backpack knowledge, custom backpack tips">
     <link rel="stylesheet" href="css/style.css">
@@ -15,23 +15,38 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <a href="index.html">
-                        <img src="images/logo.svg" alt="Black Backpack Logo">
-                        <span>Black Backpack</span>
+                    <a href="index.html" class="logo-link">
+                        <i class="fas fa-backpack"></i>
+                        <span class="logo-text">BlackBackpack</span>
                     </a>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="blog.html" class="active">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
                 </ul>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="nav-actions">
+                    <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
+                    <div class="nav-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -41,7 +56,7 @@
     <section class="page-header">
         <div class="container">
             <h1>Industry Insights & Expert Guides</h1>
-            <p>Stay informed with the latest trends, tips, and insights from the backpack manufacturing industry.</p>
+            <p>Stay informed with the latest trends, tips, and insights from the backpack manufacturing industry. Browse our complete collection of 46 articles.</p>
         </div>
     </section>
 
@@ -49,214 +64,227 @@
     <section class="blog-categories">
         <div class="container">
             <div class="categories-filter">
-                <button class="category-btn active" data-category="all">All Articles</button>
+                <button class="category-btn active" data-category="all">All Articles (46)</button>
                 <button class="category-btn" data-category="manufacturing">Manufacturing</button>
                 <button class="category-btn" data-category="design">Design & Innovation</button>
                 <button class="category-btn" data-category="materials">Materials & Quality</button>
                 <button class="category-btn" data-category="business">Business Insights</button>
                 <button class="category-btn" data-category="trends">Industry Trends</button>
+                <button class="category-btn" data-category="sustainability">Sustainability</button>
+                <button class="category-btn" data-category="technology">Technology</button>
                 <button class="category-btn" data-category="guides">How-to Guides</button>
             </div>
         </div>
     </section>
 
-    <!-- Featured Articles -->
-    <section class="featured-articles">
+    <!-- Articles Grid -->
+    <section class="articles-section">
         <div class="container">
-            <h2>Featured Articles</h2>
-            <div class="featured-grid">
-                <article class="featured-article">
+            <div class="articles-header">
+                <h2>All Articles</h2>
+                <div class="articles-count">
+                    <span>Showing <span id="showing-start">1</span>-<span id="showing-end">12</span> of 46 articles</span>
+                </div>
+            </div>
+            
+            <div class="articles-grid" id="articles-grid">
+                <article class="article-card" data-category="sustainability" data-date="2024-12-15">
                     <div class="article-image">
-                        <img src="images/sustainable-backpack-manufacturing.svg" alt="Sustainable Backpack Manufacturing">
-                        <div class="article-category">Manufacturing</div>
+                        <img src="images/blackbackpack (29).webp" alt="Sustainable Manufacturing">
+                        <div class="article-category">Sustainability</div>
                     </div>
                     <div class="article-content">
                         <h3><a href="articles/sustainable-backpack-manufacturing-practices-2024.html">Sustainable Backpack Manufacturing: Leading the Green Revolution in 2024</a></h3>
-                        <p>Discover how modern backpack manufacturers are implementing eco-friendly practices, from recycled materials to carbon-neutral production processes.</p>
+                        <p>Explore how eco-friendly practices are transforming the backpack manufacturing industry...</p>
                         <div class="article-meta">
-                            <span class="article-date">December 15, 2024</span>
-                            <span class="article-read-time">8 min read</span>
+                            <span class="article-date">Dec 15, 2024</span>
+                            <span class="article-read-time">12 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="featured-article">
+                <article class="article-card" data-category="technology" data-date="2024-12-14">
                     <div class="article-image">
-                        <img src="images/smart-backpack-technology.svg" alt="Smart Backpack Technology">
-                        <div class="article-category">Design & Innovation</div>
+                        <img src="images/blackbackpack (30).webp" alt="Advanced Technology">
+                        <div class="article-category">Technology</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/smart-backpack-technology-integration-guide.html">Smart Backpack Technology: Integrating IoT and Wearable Tech</a></h3>
-                        <p>Explore the latest innovations in smart backpack design, including USB charging ports, GPS tracking, and integrated device connectivity.</p>
+                        <h3><a href="articles/advanced-backpack-manufacturing-techniques-2024.html">Advanced Manufacturing Technology in the Backpack Industry</a></h3>
+                        <p>Discover cutting-edge technologies revolutionizing backpack production processes...</p>
                         <div class="article-meta">
-                            <span class="article-date">December 12, 2024</span>
+                            <span class="article-date">Dec 14, 2024</span>
                             <span class="article-read-time">10 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="featured-article">
+                <article class="article-card" data-category="design" data-date="2024-12-13">
                     <div class="article-image">
-                        <img src="images/waterproof-backpack-testing.svg" alt="Waterproof Backpack Testing">
-                        <div class="article-category">Materials & Quality</div>
+                        <img src="images/backpack-design-trends.svg" alt="Design Trends">
+                        <div class="article-category">Design & Innovation</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/waterproof-backpack-testing-standards-guide.html">Complete Guide to Waterproof Backpack Testing Standards</a></h3>
-                        <p>Learn about industry-standard testing methods for waterproof backpacks, including IPX ratings and real-world performance evaluation.</p>
+                        <h3><a href="articles/backpack-design-trends-innovations-2024.html">Backpack Design Trends 2024: Innovation Meets Functionality</a></h3>
+                        <p>Latest design trends shaping the future of backpack aesthetics and functionality...</p>
                         <div class="article-meta">
-                            <span class="article-date">December 10, 2024</span>
-                            <span class="article-read-time">12 min read</span>
+                            <span class="article-date">Dec 13, 2024</span>
+                            <span class="article-read-time">8 min read</span>
                         </div>
                     </div>
                 </article>
-            </div>
-        </div>
-    </section>
 
-    <!-- Recent Articles -->
-    <section class="recent-articles">
-        <div class="container">
-            <h2>Latest Articles</h2>
-            <div class="articles-grid">
-                <article class="article-card" data-category="business">
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-12">
                     <div class="article-image">
-                        <img src="images/b2b-backpack-market-trends.svg" alt="B2B Backpack Market Trends">
-                        <div class="article-category">Business Insights</div>
+                        <img src="images/backpack-materials.svg" alt="Materials Guide">
+                        <div class="article-category">Manufacturing</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/b2b-backpack-market-trends-2024-analysis.html">B2B Backpack Market Trends: 2024 Industry Analysis</a></h3>
-                        <p>Comprehensive analysis of the global B2B backpack market, including growth projections, key players, and emerging opportunities.</p>
+                        <h3><a href="articles/backpack-materials-complete-guide-durability-performance.html">Backpack Materials: Complete Guide to Durability and Performance</a></h3>
+                        <p>Comprehensive analysis of materials used in professional backpack manufacturing...</p>
                         <div class="article-meta">
-                            <span class="article-date">December 8, 2024</span>
+                            <span class="article-date">Dec 12, 2024</span>
                             <span class="article-read-time">15 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="design">
+                <article class="article-card" data-category="business" data-date="2024-12-11">
                     <div class="article-image">
-                        <img src="images/ergonomic-backpack-design.svg" alt="Ergonomic Backpack Design">
-                        <div class="article-category">Design & Innovation</div>
+                        <img src="images/brand-building-marketing.svg" alt="Brand Building">
+                        <div class="article-category">Business</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/ergonomic-backpack-design-principles-guide.html">Ergonomic Backpack Design: Principles for Comfort and Health</a></h3>
-                        <p>Essential design principles for creating ergonomic backpacks that prioritize user comfort and long-term health benefits.</p>
+                        <h3><a href="articles/brand-building-marketing-strategies-backpack-manufacturing.html">Brand Building and Marketing Strategies for Backpack Manufacturing</a></h3>
+                        <p>Strategic approaches to building successful backpack brands in competitive markets...</p>
                         <div class="article-meta">
-                            <span class="article-date">December 5, 2024</span>
-                            <span class="article-read-time">9 min read</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="article-card" data-category="materials">
-                    <div class="article-image">
-                        <img src="images/backpack-fabric-comparison.svg" alt="Backpack Fabric Comparison">
-                        <div class="article-category">Materials & Quality</div>
-                    </div>
-                    <div class="article-content">
-                        <h3><a href="articles/backpack-fabric-materials-comparison-guide.html">Backpack Fabric Materials: Complete Comparison Guide</a></h3>
-                        <p>Detailed comparison of popular backpack fabrics including nylon, polyester, canvas, and innovative eco-friendly alternatives.</p>
-                        <div class="article-meta">
-                            <span class="article-date">December 3, 2024</span>
+                            <span class="article-date">Dec 11, 2024</span>
                             <span class="article-read-time">11 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="manufacturing">
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-10">
                     <div class="article-image">
-                        <img src="images/quality-control-backpack-production.svg" alt="Quality Control in Backpack Production">
+                        <img src="images/custom-backpack-manufacturing.svg" alt="Custom Manufacturing">
                         <div class="article-category">Manufacturing</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/quality-control-backpack-production-standards.html">Quality Control in Backpack Production: Industry Standards</a></h3>
-                        <p>Comprehensive overview of quality control processes in backpack manufacturing, from material inspection to final testing.</p>
+                        <h3><a href="articles/custom-backpack-manufacturing-b2b-complete-guide.html">Custom Backpack Manufacturing: Complete B2B Guide</a></h3>
+                        <p>Everything you need to know about custom backpack manufacturing for business clients...</p>
                         <div class="article-meta">
-                            <span class="article-date">November 30, 2024</span>
+                            <span class="article-date">Dec 10, 2024</span>
                             <span class="article-read-time">13 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="trends">
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-09">
                     <div class="article-image">
-                        <img src="images/backpack-color-trends-2024.svg" alt="Backpack Color Trends 2024">
-                        <div class="article-category">Industry Trends</div>
+                        <img src="images/supply-chain-management.svg" alt="Supply Chain">
+                        <div class="article-category">Manufacturing</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/backpack-color-trends-2024-fashion-forecast.html">Backpack Color Trends 2024: Fashion Forecast and Market Insights</a></h3>
-                        <p>Explore the latest color trends in backpack design, from minimalist monochromes to bold statement colors.</p>
+                        <h3><a href="articles/supply-chain-management-backpack-manufacturing.html">Supply Chain Management in Backpack Manufacturing</a></h3>
+                        <p>Optimizing supply chain operations for efficient and cost-effective production...</p>
                         <div class="article-meta">
-                            <span class="article-date">November 28, 2024</span>
-                            <span class="article-read-time">7 min read</span>
+                            <span class="article-date">Dec 9, 2024</span>
+                            <span class="article-read-time">9 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="guides">
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-08">
                     <div class="article-image">
-                        <img src="images/custom-backpack-design-process.svg" alt="Custom Backpack Design Process">
-                        <div class="article-category">How-to Guides</div>
+                        <img src="images/blackbackpack (31).webp" alt="Quality Assurance">
+                        <div class="article-category">Manufacturing</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/custom-backpack-design-process-step-by-step.html">Custom Backpack Design Process: Step-by-Step Guide</a></h3>
-                        <p>Complete walkthrough of the custom backpack design process, from initial concept to final production.</p>
+                        <h3><a href="articles/quality-assurance-certification-standards-backpack-manufacturing.html">Quality Assurance and Certification Standards</a></h3>
+                        <p>Essential quality standards and certification processes for backpack manufacturing...</p>
                         <div class="article-meta">
-                            <span class="article-date">November 25, 2024</span>
-                            <span class="article-read-time">14 min read</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="article-card" data-category="business">
-                    <div class="article-image">
-                        <img src="images/backpack-branding-strategies.svg" alt="Backpack Branding Strategies">
-                        <div class="article-category">Business Insights</div>
-                    </div>
-                    <div class="article-content">
-                        <h3><a href="articles/backpack-branding-strategies-corporate-success.html">Backpack Branding Strategies for Corporate Success</a></h3>
-                        <p>Effective branding strategies for businesses looking to create memorable and impactful custom backpack designs.</p>
-                        <div class="article-meta">
-                            <span class="article-date">November 22, 2024</span>
+                            <span class="article-date">Dec 8, 2024</span>
                             <span class="article-read-time">10 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="materials">
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-07">
                     <div class="article-image">
-                        <img src="images/backpack-zipper-quality-guide.svg" alt="Backpack Zipper Quality Guide">
-                        <div class="article-category">Materials & Quality</div>
+                        <img src="images/blackbackpack (32).webp" alt="Quality Control">
+                        <div class="article-category">Manufacturing</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/backpack-zipper-quality-durability-guide.html">Backpack Zipper Quality: Durability and Performance Guide</a></h3>
-                        <p>Everything you need to know about backpack zippers, from material selection to testing for long-term durability.</p>
+                        <h3><a href="articles/quality-control-backpack-production-standards.html">Quality Control in Backpack Production: Industry Standards</a></h3>
+                        <p>Comprehensive overview of quality control processes in backpack manufacturing...</p>
                         <div class="article-meta">
-                            <span class="article-date">November 20, 2024</span>
-                            <span class="article-read-time">8 min read</span>
+                            <span class="article-date">Dec 7, 2024</span>
+                            <span class="article-read-time">12 min read</span>
                         </div>
                     </div>
                 </article>
 
-                <article class="article-card" data-category="trends">
+                <article class="article-card" data-category="technology" data-date="2024-12-06">
                     <div class="article-image">
-                        <img src="images/minimalist-backpack-design-trend.svg" alt="Minimalist Backpack Design Trend">
-                        <div class="article-category">Industry Trends</div>
+                        <img src="images/blackbackpack (33).webp" alt="Automated Production">
+                        <div class="article-category">Technology</div>
                     </div>
                     <div class="article-content">
-                        <h3><a href="articles/minimalist-backpack-design-trend-analysis.html">Minimalist Backpack Design: The Rise of Functional Simplicity</a></h3>
-                        <p>Analyzing the growing trend toward minimalist backpack designs and their impact on the industry.</p>
+                        <h3><a href="articles/automation-technology-backpack-manufacturing-2024.html">Automated Backpack Production: Technology Revolutionizing Manufacturing</a></h3>
+                        <p>How automation is transforming backpack manufacturing processes and efficiency...</p>
                         <div class="article-meta">
-                            <span class="article-date">November 18, 2024</span>
-                            <span class="article-read-time">6 min read</span>
+                            <span class="article-date">Dec 6, 2024</span>
+                            <span class="article-read-time">11 min read</span>
                         </div>
                     </div>
                 </article>
+
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-05">
+                    <div class="article-image">
+                        <img src="images/blackbackpack (34).webp" alt="Lean Manufacturing">
+                        <div class="article-category">Manufacturing</div>
+                    </div>
+                    <div class="article-content">
+                        <h3><a href="articles/lean-manufacturing-principles-backpack-production.html">Lean Manufacturing Principles in Backpack Production</a></h3>
+                        <p>Implementing lean manufacturing techniques to optimize backpack production...</p>
+                        <div class="article-meta">
+                            <span class="article-date">Dec 5, 2024</span>
+                            <span class="article-read-time">9 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card" data-category="manufacturing" data-date="2024-12-04">
+                    <div class="article-image">
+                        <img src="images/blackbackpack (35).webp" alt="Assembly Line">
+                        <div class="article-category">Manufacturing</div>
+                    </div>
+                    <div class="article-content">
+                        <h3><a href="articles/backpack-assembly-line-optimization-strategies.html">Backpack Assembly Line Optimization: Efficiency Strategies</a></h3>
+                        <p>Advanced strategies for optimizing backpack assembly line efficiency and productivity...</p>
+                        <div class="article-meta">
+                            <span class="article-date">Dec 4, 2024</span>
+                            <span class="article-read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+
             </div>
 
-            <!-- Load More Button -->
-            <div class="load-more-container">
-                <button class="btn btn-secondary load-more-btn">Load More Articles</button>
+            <!-- Pagination -->
+            <div class="pagination-container">
+                <div class="pagination">
+                    <button class="pagination-btn" id="prev-page" disabled>← Previous</button>
+                    <div class="pagination-numbers" id="pagination-numbers">
+                        <button class="pagination-number active" data-page="1">1</button>
+                        <button class="pagination-number" data-page="2">2</button>
+                        <button class="pagination-number" data-page="3">3</button>
+                        <button class="pagination-number" data-page="4">4</button>
+                    </div>
+                    <button class="pagination-btn" id="next-page">Next →</button>
+                </div>
+                <div class="pagination-info">
+                    <span>Page <span id="current-page">1</span> of <span id="total-pages">4</span></span>
+                </div>
             </div>
         </div>
     </section>
@@ -311,7 +339,6 @@
                     <h4>Resources</h4>
                     <ul>
                         <li><a href="blog.html">Blog</a></li>
-                        <li><a href="articles.html">Articles</a></li>
                     </ul>
                 </div>
             </div>
@@ -321,6 +348,141 @@
         </div>
     </footer>
 
+    <!-- Hidden Articles Data for Pagination -->
+    
+    
     <script src="js/script.js"></script>
+    <script src="js/navigation.js"></script>
+
+    <script>
+        // Blog pagination and filtering functionality
+        const articlesPerPage = 12;
+        let currentPage = 1;
+        let blogArticles = [];
+        
+        // Extract articles from the DOM
+        function initializeArticles() {
+            const articleElements = document.querySelectorAll('.article-card');
+            blogArticles = Array.from(articleElements).map(article => article.outerHTML);
+        }
+        
+        const totalPages = Math.ceil(document.querySelectorAll('.article-card').length / articlesPerPage);
+        
+        function showPage(page) {
+            const startIndex = (page - 1) * articlesPerPage;
+            const endIndex = Math.min(startIndex + articlesPerPage, blogArticles.length);
+            
+            const articlesGrid = document.getElementById('articles-grid');
+            articlesGrid.innerHTML = '';
+            
+            for (let i = startIndex; i < endIndex; i++) {
+                if (blogArticles[i]) {
+                    articlesGrid.innerHTML += blogArticles[i];
+                }
+            }
+            
+            // Update pagination info
+            document.getElementById('current-page').textContent = page;
+            document.getElementById('total-pages').textContent = totalPages;
+            document.getElementById('showing-start').textContent = startIndex + 1;
+            document.getElementById('showing-end').textContent = Math.min(endIndex, blogArticles.length);
+            
+            // Update pagination buttons
+            const prevBtn = document.getElementById('prev-page');
+            const nextBtn = document.getElementById('next-page');
+            
+            if (prevBtn) prevBtn.disabled = page === 1;
+            if (nextBtn) nextBtn.disabled = page === totalPages;
+            
+            // Update active page number
+            document.querySelectorAll('.pagination-number').forEach(btn => {
+                btn.classList.remove('active');
+                if (parseInt(btn.dataset.page) === page) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            currentPage = page;
+            
+            // Scroll to top of articles section
+            const articlesSection = document.querySelector('.articles-section');
+            if (articlesSection) {
+                articlesSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+        
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeArticles();
+            
+            // Event listeners for pagination
+            const prevBtn = document.getElementById('prev-page');
+            const nextBtn = document.getElementById('next-page');
+            
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    if (currentPage > 1) showPage(currentPage - 1);
+                });
+            }
+            
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    if (currentPage < totalPages) showPage(currentPage + 1);
+                });
+            }
+            
+            // Pagination number buttons
+            document.querySelectorAll('.pagination-number').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const page = parseInt(btn.dataset.page);
+                    showPage(page);
+                });
+            });
+            
+            // Category filtering
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    const category = btn.dataset.category;
+                    const articlesGrid = document.getElementById('articles-grid');
+                    const paginationContainer = document.querySelector('.pagination-container');
+                    
+                    if (category === 'all') {
+                        showPage(1);
+                        if (paginationContainer) paginationContainer.style.display = 'block';
+                    } else {
+                        // Filter articles by category
+                        const filteredArticles = blogArticles.filter(article => {
+                            const categoryMap = {
+                                'manufacturing': ['Manufacturing'],
+                                'design': ['Design & Innovation'],
+                                'materials': ['Materials & Quality'],
+                                'business': ['Business', 'Business Insights'],
+                                'trends': ['Industry Trends'],
+                                'sustainability': ['Sustainability'],
+                                'technology': ['Technology'],
+                                'guides': ['How-to Guides', 'Guides']
+                            };
+                            
+                            const categoryNames = categoryMap[category] || [category];
+                            return categoryNames.some(catName => 
+                                article.includes(`<div class="article-category">${catName}</div>`)
+                            );
+                        });
+                        
+                        articlesGrid.innerHTML = '';
+                        filteredArticles.forEach(article => {
+                            articlesGrid.innerHTML += article;
+                        });
+                        
+                        // Hide pagination for filtered results
+                        if (paginationContainer) paginationContainer.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
