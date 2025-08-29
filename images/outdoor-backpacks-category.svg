@@ -1,0 +1,64 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outdoor backpack body -->
+  <rect x="18" y="18" width="44" height="50" rx="4" fill="#059669" stroke="#047857" stroke-width="2"/>
+  
+  <!-- Main compartment -->
+  <rect x="21" y="21" width="38" height="35" rx="2" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  
+  <!-- Top compartment -->
+  <rect x="23" y="23" width="34" height="12" rx="1" fill="#34d399" stroke="#10b981" stroke-width="1"/>
+  
+  <!-- Bottom compartment -->
+  <rect x="23" y="58" width="34" height="8" rx="2" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="14" cy="40" rx="4" ry="12" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  <ellipse cx="66" cy="40" rx="4" ry="12" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  
+  <!-- Water bottle -->
+  <rect x="63" y="32" width="6" height="16" rx="3" fill="#3b82f6"/>
+  <circle cx="66" cy="30" r="2" fill="#60a5fa"/>
+  
+  <!-- Sleeping bag attachment -->
+  <rect x="25" y="68" width="30" height="6" rx="3" fill="#7c2d12" stroke="#92400e" stroke-width="1"/>
+  
+  <!-- Compression straps -->
+  <line x1="18" y1="30" x2="62" y2="30" stroke="#374151" stroke-width="2"/>
+  <line x1="18" y1="45" x2="62" y2="45" stroke="#374151" stroke-width="2"/>
+  <line x1="18" y1="60" x2="62" y2="60" stroke="#374151" stroke-width="2"/>
+  
+  <!-- Buckles -->
+  <rect x="16" y="28" width="4" height="4" rx="1" fill="#374151"/>
+  <rect x="60" y="28" width="4" height="4" rx="1" fill="#374151"/>
+  <rect x="16" y="43" width="4" height="4" rx="1" fill="#374151"/>
+  <rect x="60" y="43" width="4" height="4" rx="1" fill="#374151"/>
+  
+  <!-- Zippers -->
+  <line x1="25" y1="29" x2="55" y2="29" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="54" cy="29" r="1.5" fill="#9ca3af"/>
+  
+  <line x1="25" y1="62" x2="55" y2="62" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="54" cy="62" r="1.5" fill="#9ca3af"/>
+  
+  <!-- Handle -->
+  <path d="M35 18 Q35 13 40 13 Q45 13 45 18" stroke="#047857" stroke-width="3" fill="none"/>
+  
+  <!-- Shoulder straps with padding -->
+  <path d="M23 23 Q8 18 10 5 Q16 2 23 12" stroke="#047857" stroke-width="3" fill="none"/>
+  <path d="M57 23 Q72 18 70 5 Q64 2 57 12" stroke="#047857" stroke-width="3" fill="none"/>
+  
+  <!-- Strap padding -->
+  <ellipse cx="15" cy="15" rx="2" ry="4" fill="#6b7280"/>
+  <ellipse cx="65" cy="15" rx="2" ry="4" fill="#6b7280"/>
+  
+  <!-- Carabiner -->
+  <circle cx="12" cy="35" r="2" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="10" y1="35" x2="14" y2="35" stroke="#9ca3af" stroke-width="1"/>
+  
+  <!-- Hiking patches -->
+  <circle cx="30" cy="40" r="3" fill="#f59e0b"/>
+  <path d="M28 38 L30 42 L32 38 Z" fill="white"/>
+  
+  <rect x="45" y="37" width="6" height="6" rx="1" fill="#ef4444"/>
+  <text x="48" y="42" text-anchor="middle" font-size="4" fill="white">⛰</text>
+</svg>

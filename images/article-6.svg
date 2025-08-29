@@ -1,0 +1,69 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#fef7ff"/>
+  
+  <!-- Article content area -->
+  <rect x="20" y="20" width="260" height="160" rx="8" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="30" y="30" width="240" height="30" rx="4" fill="#7c3aed"/>
+  <text x="150" y="50" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Travel Tips & Tricks</text>
+  
+  <!-- Content lines -->
+  <rect x="40" y="80" width="220" height="4" rx="2" fill="#64748b"/>
+  <rect x="40" y="90" width="200" height="4" rx="2" fill="#94a3b8"/>
+  <rect x="40" y="100" width="180" height="4" rx="2" fill="#94a3b8"/>
+  <rect x="40" y="110" width="190" height="4" rx="2" fill="#94a3b8"/>
+  
+  <!-- Travel illustration -->
+  <g transform="translate(180, 120)">
+    <!-- Airplane -->
+    <path d="M5 15 L15 10 L25 15 L20 20 L15 18 L10 20 Z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1"/>
+    <circle cx="15" cy="15" r="2" fill="#60a5fa"/>
+    
+    <!-- Luggage -->
+    <g transform="translate(30, 5)">
+      <rect x="0" y="0" width="20" height="15" rx="2" fill="#8b5cf6" stroke="#7c3aed" stroke-width="1"/>
+      <rect x="2" y="2" width="16" height="8" rx="1" fill="#a78bfa"/>
+      <circle cx="5" cy="17" r="2" fill="#374151"/>
+      <circle cx="15" cy="17" r="2" fill="#374151"/>
+      <rect x="8" y="-2" width="4" height="2" rx="1" fill="#6b7280"/>
+    </g>
+  </g>
+  
+  <!-- Travel tips icons -->
+  <g transform="translate(40, 130)">
+    <!-- Passport -->
+    <rect x="5" y="5" width="10" height="14" rx="1" fill="#dc2626" stroke="#b91c1c" stroke-width="1"/>
+    <rect x="7" y="7" width="6" height="4" rx="0.5" fill="#fca5a5"/>
+    <rect x="7" y="12" width="6" height="1" fill="#fca5a5"/>
+    <rect x="7" y="14" width="4" height="1" fill="#fca5a5"/>
+    
+    <!-- Map -->
+    <g transform="translate(25, 0)">
+      <rect x="5" y="5" width="14" height="10" rx="1" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+      <path d="M7 7 L9 9 L11 7 L13 9 L15 7 L17 9" stroke="#d97706" stroke-width="1" fill="none"/>
+      <path d="M7 10 L9 12 L11 10 L13 12 L15 10 L17 12" stroke="#d97706" stroke-width="1" fill="none"/>
+      <circle cx="11" cy="9" r="1" fill="#dc2626"/>
+    </g>
+    
+    <!-- Camera -->
+    <g transform="translate(50, 0)">
+      <rect x="5" y="8" width="12" height="8" rx="2" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+      <circle cx="11" cy="12" r="3" fill="#6b7280"/>
+      <circle cx="11" cy="12" r="2" fill="#1f2937"/>
+      <rect x="8" y="6" width="6" height="2" rx="1" fill="#4b5563"/>
+      <circle cx="15" cy="9" r="0.5" fill="#ef4444"/>
+    </g>
+  </g>
+  
+  <!-- Travel checklist -->
+  <g transform="translate(200, 160)">
+    <text x="0" y="0" font-size="8" fill="#7c3aed">Checklist:</text>
+    <circle cx="40" cy="-3" r="1" fill="#10b981"/>
+    <path d="M38 -3 L40 -1 L42 -5" stroke="white" stroke-width="0.5" fill="none"/>
+    <circle cx="50" cy="-3" r="1" fill="#10b981"/>
+    <path d="M48 -3 L50 -1 L52 -5" stroke="white" stroke-width="0.5" fill="none"/>
+    <circle cx="60" cy="-3" r="1" fill="#d1d5db"/>
+  </g>
+</svg>

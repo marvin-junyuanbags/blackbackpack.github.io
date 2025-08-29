@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote - BlackBackpack.com Manufacturing Co.</title>
+    <meta name="description" content="Get a custom volume quote for your backpack manufacturing needs. Professional B2B pricing for bulk orders and custom designs.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://blackbackpack.co.uk/quote.html">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="images/logo.svg" alt="BlackBackpack.com Logo">
+                        <span>BlackBackpack.com</span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <div class="nav-phone">
+
+                    </div>
+                    <a href="quote.html" class="btn btn-primary">Get Free Quote</a>
+                </div>
+                
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Volume Quote Request</h1>
+            <p>Get competitive pricing for your bulk backpack orders</p>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section class="quote-form-section">
+        <div class="container">
+            <div class="quote-form-container">
+                <div class="quote-form-content">
+                    <h2>Request Your Custom Quote</h2>
+                    <p>Fill out the form below and we'll provide you with a detailed quote within 24 hours.</p>
+                    
+                    <form class="quote-form" id="quoteForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company Name *</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">Contact Person *</label>
+                                <input type="text" id="contact" name="contact" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="quantity">Estimated Quantity *</label>
+                            <select id="quantity" name="quantity" required>
+                                <option value="">Select quantity range</option>
+                                <option value="100-500">100 - 500 pieces</option>
+                                <option value="500-1000">500 - 1,000 pieces</option>
+                                <option value="1000-5000">1,000 - 5,000 pieces</option>
+                                <option value="5000-10000">5,000 - 10,000 pieces</option>
+                                <option value="10000+">10,000+ pieces</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="productType">Product Type *</label>
+                            <select id="productType" name="productType" required>
+                                <option value="">Select product type</option>
+                                <option value="business">Business & Corporate Backpacks</option>
+                                <option value="travel">Travel & Adventure Backpacks</option>
+                                <option value="student">Student & Educational Backpacks</option>
+                                <option value="outdoor">Outdoor & Sports Backpacks</option>
+                                <option value="tech">Tech & Professional Backpacks</option>
+                                <option value="custom">Custom Design</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Required Timeline *</label>
+                            <select id="timeline" name="timeline" required>
+                                <option value="">Select timeline</option>
+                                <option value="rush">Rush Order (7-14 days)</option>
+                                <option value="standard">Standard (15-30 days)</option>
+                                <option value="extended">Extended (30-60 days)</option>
+                                <option value="flexible">Flexible Timeline</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="requirements">Detailed Requirements *</label>
+                            <textarea id="requirements" name="requirements" rows="6" placeholder="Please describe your specific requirements including:
+• Material preferences
+• Color requirements
+• Size specifications
+• Branding/logo requirements
+• Special features needed
+• Budget considerations
+• Any other important details" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="consent" required>
+                                <span class="checkmark"></span>
+                                I agree to be contacted regarding this quote request and consent to the processing of my data.
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Request Quote</span>
+                            <span class="btn-loading">Sending...</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="quote-info">
+                    <h3>Why Choose Our Volume Pricing?</h3>
+                    <ul>
+                        <li>Competitive bulk pricing tiers</li>
+                        <li>No hidden fees or setup costs</li>
+                        <li>Flexible payment terms</li>
+                        <li>Quality guarantee on all orders</li>
+                        <li>Dedicated account management</li>
+                        <li>Fast turnaround times</li>
+                    </ul>
+                    
+                    <div class="contact-info">
+                        <h4>Need Help?</h4>
+                        <p>Our sales team is ready to assist you</p>
+                        <p><strong>Email:</strong> <a href="mailto:cco@junyuanbags.com">cco@junyuanbags.com</a></p>
+
+                        <p><strong>Hours:</strong> Mon-Fri, 9:00 AM - 6:00 PM (GMT+8)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Black Backpack</h3>
+                    <p>Leading custom backpack manufacturer specializing in B2B solutions worldwide.</p>
+                    <div class="contact-info">
+                        <p>Email: <a href="mailto:cco@junyuanbags.com">cco@junyuanbags.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Black Backpack. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+<script src="js/navigation.js"></script>
+</body>
+</html>

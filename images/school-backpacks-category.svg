@@ -1,0 +1,49 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- School backpack body -->
+  <rect x="20" y="22" width="40" height="40" rx="3" fill="#dc2626" stroke="#b91c1c" stroke-width="2"/>
+  
+  <!-- Main compartment -->
+  <rect x="23" y="25" width="34" height="25" rx="2" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  
+  <!-- Book compartment -->
+  <rect x="25" y="27" width="30" height="20" rx="1" fill="#fca5a5"/>
+  
+  <!-- Books -->
+  <rect x="27" y="29" width="3" height="16" fill="#3b82f6"/>
+  <rect x="31" y="29" width="3" height="16" fill="#10b981"/>
+  <rect x="35" y="29" width="3" height="16" fill="#f59e0b"/>
+  <rect x="39" y="29" width="3" height="16" fill="#8b5cf6"/>
+  
+  <!-- Pencil case pocket -->
+  <rect x="45" y="30" width="8" height="4" rx="1" fill="#fbbf24" stroke="#f59e0b" stroke-width="0.5"/>
+  
+  <!-- Pencils -->
+  <line x1="46" y1="32" x2="52" y2="32" stroke="#374151" stroke-width="1"/>
+  <circle cx="46" cy="32" r="0.5" fill="#fbbf24"/>
+  <circle cx="52" cy="32" r="0.5" fill="#ef4444"/>
+  
+  <!-- Front pocket -->
+  <rect x="25" y="52" width="30" height="8" rx="2" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  
+  <!-- School badge/logo -->
+  <circle cx="40" cy="56" r="2" fill="#fbbf24"/>
+  <text x="40" y="58" text-anchor="middle" font-size="4" fill="#dc2626">S</text>
+  
+  <!-- Zipper -->
+  <line x1="27" y1="56" x2="53" y2="56" stroke="#9ca3af" stroke-width="1.5"/>
+  <circle cx="52" cy="56" r="1.5" fill="#9ca3af"/>
+  
+  <!-- Handle -->
+  <path d="M35 22 Q35 17 40 17 Q45 17 45 22" stroke="#b91c1c" stroke-width="3" fill="none"/>
+  
+  <!-- Shoulder straps -->
+  <path d="M25 27 Q15 22 18 10 Q22 7 25 17" stroke="#b91c1c" stroke-width="2" fill="none"/>
+  <path d="M55 27 Q65 22 62 10 Q58 7 55 17" stroke="#b91c1c" stroke-width="2" fill="none"/>
+  
+  <!-- Reflective strips -->
+  <rect x="22" y="35" width="2" height="15" fill="#fbbf24"/>
+  <rect x="56" y="35" width="2" height="15" fill="#fbbf24"/>
+  
+  <!-- Name tag -->
+  <rect x="30" y="60" width="20" height="3" rx="1" fill="white" stroke="#6b7280" stroke-width="0.5"/>
+</svg>

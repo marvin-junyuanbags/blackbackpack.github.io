@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="materialGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="fabricPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect width="20" height="20" fill="#ecf0f1"/>
+      <circle cx="10" cy="10" r="2" fill="#bdc3c7"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#materialGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Backpack Materials Guide</text>
+  
+  <!-- Material Samples -->
+  <!-- Nylon -->
+  <g transform="translate(150, 150)">
+    <rect x="0" y="0" width="120" height="80" fill="#2c3e50" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="url(#fabricPattern)" rx="4"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Nylon</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Durable & Lightweight</text>
+  </g>
+  
+  <!-- Polyester -->
+  <g transform="translate(350, 150)">
+    <rect x="0" y="0" width="120" height="80" fill="#8e44ad" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="#9b59b6" rx="4"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Polyester</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Water Resistant</text>
+  </g>
+  
+  <!-- Canvas -->
+  <g transform="translate(550, 150)">
+    <rect x="0" y="0" width="120" height="80" fill="#d35400" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="#e67e22" rx="4"/>
+    <pattern id="canvasTexture" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e67e22"/>
+      <line x1="0" y1="0" x2="8" y2="8" stroke="#d35400" stroke-width="1"/>
+      <line x1="8" y1="0" x2="0" y2="8" stroke="#d35400" stroke-width="1"/>
+    </pattern>
+    <rect x="10" y="10" width="100" height="60" fill="url(#canvasTexture)" rx="4"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Canvas</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Heavy Duty</text>
+  </g>
+  
+  <!-- Leather -->
+  <g transform="translate(150, 300)">
+    <rect x="0" y="0" width="120" height="80" fill="#8b4513" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="#a0522d" rx="4"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Leather</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Premium Quality</text>
+  </g>
+  
+  <!-- Recycled Materials -->
+  <g transform="translate(350, 300)">
+    <rect x="0" y="0" width="120" height="80" fill="#27ae60" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="#2ecc71" rx="4"/>
+    <circle cx="35" cy="35" r="8" fill="#27ae60"/>
+    <circle cx="60" cy="35" r="8" fill="#27ae60"/>
+    <circle cx="85" cy="35" r="8" fill="#27ae60"/>
+    <path d="M30 30 L30 40 L40 40 L40 30 Z M32 32 L32 38 L38 38 L38 32 Z" fill="white"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Recycled</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Eco-Friendly</text>
+  </g>
+  
+  <!-- Cordura -->
+  <g transform="translate(550, 300)">
+    <rect x="0" y="0" width="120" height="80" fill="#34495e" rx="8"/>
+    <rect x="10" y="10" width="100" height="60" fill="#2c3e50" rx="4"/>
+    <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Cordura</text>
+    <text x="60" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Abrasion Resistant</text>
+  </g>
+  
+  <!-- Performance Metrics -->
+  <g transform="translate(100, 450)">
+    <rect x="0" y="0" width="600" height="100" fill="rgba(255,255,255,0.1)" rx="10"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Material Performance Comparison</text>
+    
+    <!-- Durability Scale -->
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="12" fill="white">Durability:</text>
+    <rect x="120" y="42" width="400" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+    <rect x="120" y="42" width="320" height="8" fill="#e74c3c" rx="4"/>
+    
+    <!-- Water Resistance -->
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="12" fill="white">Water Resistance:</text>
+    <rect x="120" y="62" width="400" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+    <rect x="120" y="62" width="280" height="8" fill="#3498db" rx="4"/>
+    
+    <!-- Sustainability -->
+    <text x="50" y="90" font-family="Arial, sans-serif" font-size="12" fill="white">Sustainability:</text>
+    <rect x="120" y="82" width="400" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+    <rect x="120" y="82" width="200" height="8" fill="#27ae60" rx="4"/>
+  </g>
+</svg>

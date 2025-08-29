@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 350" width="300" height="350">
+  <defs>
+    <linearGradient id="laptopGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main laptop backpack body -->
+  <rect x="75" y="60" width="150" height="220" rx="8" fill="url(#laptopGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Laptop compartment -->
+  <rect x="85" y="70" width="130" height="180" rx="5" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  <rect x="90" y="75" width="120" height="4" fill="#9ca3af"/>
+  
+  <!-- Laptop compartment zipper -->
+  <rect x="80" y="65" width="140" height="3" fill="#6b7280"/>
+  <circle cx="215" cy="66.5" r="3" fill="#9ca3af"/>
+  
+  <!-- Front organizer compartment -->
+  <rect x="95" y="110" width="110" height="90" rx="5" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Organizer pockets -->
+  <rect x="105" y="125" width="25" height="15" rx="2" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  <rect x="135" y="125" width="25" height="15" rx="2" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  <rect x="165" y="125" width="25" height="15" rx="2" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Pen holders -->
+  <circle cx="110" cy="155" r="2" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  <circle cx="120" cy="155" r="2" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  <circle cx="130" cy="155" r="2" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  
+  <!-- Key clip -->
+  <rect x="175" y="150" width="15" height="8" rx="2" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  
+  <!-- Cable management -->
+  <circle cx="150" cy="175" r="4" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Side pockets -->
+  <ellipse cx="65" cy="160" rx="12" ry="30" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  <ellipse cx="235" cy="160" rx="12" ry="30" fill="#374151" stroke="#1f2937" stroke-width="1"/>
+  
+  <!-- Professional shoulder straps -->
+  <path d="M65 100 Q45 90 35 110 L35 170 Q35 190 45 180 L65 170" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  <path d="M235 100 Q255 90 265 110 L265 170 Q265 190 255 180 L235 170" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Ergonomic padding -->
+  <rect x="40" y="125" width="8" height="25" rx="4" fill="#6b7280"/>
+  <rect x="252" y="125" width="8" height="25" rx="4" fill="#6b7280"/>
+  
+  <!-- Top handle -->
+  <rect x="130" y="45" width="40" height="8" rx="4" fill="#4b5563" stroke="#374151" stroke-width="1"/>
+  
+  <!-- USB charging port -->
+  <rect x="70" y="180" width="8" height="4" rx="1" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  <text x="67" y="195" font-family="Arial, sans-serif" font-size="6" fill="#9ca3af">USB</text>
+  
+  <!-- Anti-theft zipper -->
+  <rect x="220" y="120" width="6" height="20" rx="1" fill="#ef4444" stroke="#dc2626" stroke-width="1"/>
+  
+  <!-- RFID blocking pocket -->
+  <rect x="105" y="220" width="90" height="20" rx="3" fill="#1f2937" stroke="#111827" stroke-width="1"/>
+  <text x="150" y="232" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#9ca3af">RFID SAFE</text>
+  
+  <!-- Bottom protection -->
+  <rect x="85" y="270" width="130" height="8" rx="4" fill="#1f2937" stroke="#111827" stroke-width="1"/>
+  
+  <!-- Water-resistant coating indicator -->
+  <circle cx="200" cy="90" r="8" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1" opacity="0.8"/>
+  <text x="200" y="94" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#fff">H2O</text>
+  
+  <!-- Professional badge -->
+  <rect x="140" y="250" width="20" height="15" rx="2" fill="#6b7280" stroke="#4b5563" stroke-width="1"/>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#1f2937">TECH</text>
+</svg>

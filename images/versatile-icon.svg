@@ -1,0 +1,46 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central hub -->
+  <circle cx="30" cy="30" r="8" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+  
+  <!-- Multiple connection points -->
+  <circle cx="30" cy="12" r="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="48" cy="30" r="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="30" cy="48" r="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+  <circle cx="12" cy="30" r="4" fill="#a78bfa" stroke="#8b5cf6" stroke-width="1.5"/>
+  
+  <!-- Diagonal connections -->
+  <circle cx="42" cy="18" r="3" fill="#c4b5fd" stroke="#a78bfa" stroke-width="1"/>
+  <circle cx="42" cy="42" r="3" fill="#c4b5fd" stroke="#a78bfa" stroke-width="1"/>
+  <circle cx="18" cy="42" r="3" fill="#c4b5fd" stroke="#a78bfa" stroke-width="1"/>
+  <circle cx="18" cy="18" r="3" fill="#c4b5fd" stroke="#a78bfa" stroke-width="1"/>
+  
+  <!-- Connection lines -->
+  <line x1="30" y1="22" x2="30" y2="16" stroke="#8b5cf6" stroke-width="2"/>
+  <line x1="38" y1="30" x2="44" y2="30" stroke="#8b5cf6" stroke-width="2"/>
+  <line x1="30" y1="38" x2="30" y2="44" stroke="#8b5cf6" stroke-width="2"/>
+  <line x1="22" y1="30" x2="16" y2="30" stroke="#8b5cf6" stroke-width="2"/>
+  
+  <!-- Diagonal lines -->
+  <line x1="36" y1="24" x2="39" y2="21" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="36" y1="36" x2="39" y2="39" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="24" y1="36" x2="21" y2="39" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="24" y1="24" x2="21" y2="21" stroke="#a78bfa" stroke-width="1.5"/>
+  
+  <!-- Function symbols in outer circles -->
+  <!-- Work -->
+  <rect x="28" y="10" width="4" height="4" fill="#7c3aed"/>
+  
+  <!-- Travel -->
+  <circle cx="48" cy="30" r="1.5" fill="#7c3aed"/>
+  <path d="M46 28 L50 28 M48 26 L48 34" stroke="#7c3aed" stroke-width="1"/>
+  
+  <!-- Sports -->
+  <circle cx="30" cy="48" r="1.5" fill="#7c3aed"/>
+  
+  <!-- School -->
+  <rect x="10" y="28" width="4" height="4" fill="#7c3aed"/>
+  
+  <!-- Central versatility symbol -->
+  <path d="M26 26 L34 26 L34 34 L26 34 Z" fill="none" stroke="#ddd6fe" stroke-width="1.5"/>
+  <path d="M28 28 L32 32 M32 28 L28 32" stroke="#ddd6fe" stroke-width="1.5"/>
+</svg>
