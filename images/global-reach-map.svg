@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <style>
+      .map-bg { fill: #f8fafc; }
+      .continent { fill: #e2e8f0; stroke: #cbd5e1; stroke-width: 1; }
+      .active-region { fill: #3b82f6; }
+      .marker { fill: #ef4444; }
+      .marker-pulse { fill: #ef4444; opacity: 0.6; }
+      .text { font-family: 'Inter', sans-serif; font-size: 12px; fill: #1e293b; }
+      .title { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600; fill: #1e293b; }
+    </style>
+    <animate id="pulse" attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="map-bg" width="800" height="400"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Global Manufacturing & Distribution Network</text>
+  
+  <!-- Simplified World Map -->
+  <!-- North America -->
+  <path class="continent active-region" d="M50 80 L200 80 L200 180 L120 200 L50 180 Z"/>
+  
+  <!-- Europe -->
+  <path class="continent active-region" d="M300 70 L420 70 L420 150 L300 150 Z"/>
+  
+  <!-- Asia -->
+  <path class="continent active-region" d="M450 60 L650 60 L680 120 L650 180 L500 180 L450 120 Z"/>
+  
+  <!-- Africa -->
+  <path class="continent" d="M320 160 L400 160 L420 280 L340 300 L320 240 Z"/>
+  
+  <!-- South America -->
+  <path class="continent" d="M150 220 L220 220 L200 320 L170 340 L150 300 Z"/>
+  
+  <!-- Australia -->
+  <path class="continent" d="M580 260 L650 260 L650 300 L580 300 Z"/>
+  
+  <!-- Manufacturing Centers -->
+  <circle class="marker" cx="125" cy="130" r="4"/>
+  <circle class="marker-pulse" cx="125" cy="130" r="3">
+    <animate attributeName="r" values="3;8;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="135" y="135" class="text">USA</text>
+  
+  <circle class="marker" cx="360" cy="110" r="4"/>
+  <circle class="marker-pulse" cx="360" cy="110" r="3">
+    <animate attributeName="r" values="3;8;3" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="370" y="115" class="text">Europe</text>
+  
+  <circle class="marker" cx="550" cy="120" r="4"/>
+  <circle class="marker-pulse" cx="550" cy="120" r="3">
+    <animate attributeName="r" values="3;8;3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="560" y="125" class="text">China</text>
+  
+  <!-- Distribution Centers -->
+  <circle class="marker" cx="180" cy="270" r="3"/>
+  <text x="190" y="275" class="text">Brazil</text>
+  
+  <circle class="marker" cx="615" cy="280" r="3"/>
+  <text x="625" y="285" class="text">Australia</text>
+  
+  <!-- Connection Lines -->
+  <line x1="125" y1="130" x2="360" y2="110" stroke="#3b82f6" stroke-width="2" opacity="0.5" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" values="0;10" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="360" y1="110" x2="550" y2="120" stroke="#3b82f6" stroke-width="2" opacity="0.5" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" values="0;10" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="550" y1="120" x2="615" y2="280" stroke="#3b82f6" stroke-width="2" opacity="0.3" stroke-dasharray="3,3">
+    <animate attributeName="stroke-dashoffset" values="0;6" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 350)">
+    <circle class="marker" cx="10" cy="10" r="3"/>
+    <text x="20" y="15" class="text">Manufacturing Centers</text>
+    
+    <rect class="active-region" x="150" y="5" width="15" height="10"/>
+    <text x="170" y="15" class="text">Active Markets</text>
+    
+    <line x1="280" y1="10" x2="300" y2="10" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="310" y="15" class="text">Supply Chain Network</text>
+  </g>
+  
+  <!-- Statistics -->
+  <g transform="translate(600, 350)">
+    <text x="0" y="0" class="text">50+ Countries Served</text>
+    <text x="0" y="20" class="text">500+ Projects Delivered</text>
+  </g>
+</svg>

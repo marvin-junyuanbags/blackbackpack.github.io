@@ -1,0 +1,24 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background wave -->
+  <path d="M10 25 Q20 15 30 25 T50 25" stroke="url(#logoGradient4)" stroke-width="8" fill="none" opacity="0.2"/>
+  
+  <!-- Main logo elements -->
+  <circle cx="20" cy="25" r="8" fill="url(#logoGradient4)"/>
+  <circle cx="35" cy="25" r="6" fill="url(#logoGradient4)" opacity="0.8"/>
+  <circle cx="47" cy="25" r="4" fill="url(#logoGradient4)" opacity="0.6"/>
+  
+  <!-- Company name -->
+  <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">WaveSync</text>
+  <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" fill="#666">Digital</text>
+  
+  <!-- Wave accent -->
+  <path d="M100 20 Q105 15 110 20 T120 20" stroke="url(#logoGradient4)" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M100 25 Q105 20 110 25 T120 25" stroke="url(#logoGradient4)" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
