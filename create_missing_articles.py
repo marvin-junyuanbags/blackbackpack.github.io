@@ -230,8 +230,8 @@ def create_missing_articles():
             </div>
             <div class="footer-section">
                 <h4>Contact Info</h4>
-                <p>Email: info@blackbackpack.co.uk</p>
-                <p>Phone: +44 20 1234 5678</p>
+                <p>Email: cco@junyuanbags.com</p>
+                <p>Phone: WhatsApp +86 17750020688</p>
             </div>
         </div>
         <div class="footer-bottom">

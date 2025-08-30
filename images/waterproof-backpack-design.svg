@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="backpackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#666;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Water drops background -->
+  <circle cx="50" cy="50" r="3" fill="#4A90E2" opacity="0.3"/>
+  <circle cx="350" cy="80" r="2" fill="#4A90E2" opacity="0.4"/>
+  <circle cx="80" cy="250" r="2.5" fill="#4A90E2" opacity="0.3"/>
+  <circle cx="320" cy="220" r="2" fill="#4A90E2" opacity="0.4"/>
+  
+  <!-- Main backpack shape -->
+  <path d="M150 80 Q150 70 160 70 L240 70 Q250 70 250 80 L250 220 Q250 230 240 230 L160 230 Q150 230 150 220 Z" fill="url(#backpackGradient)" stroke="#222" stroke-width="2"/>
+  
+  <!-- Backpack straps -->
+  <rect x="140" y="90" width="8" height="80" rx="4" fill="#444"/>
+  <rect x="252" y="90" width="8" height="80" rx="4" fill="#444"/>
+  
+  <!-- Front pocket -->
+  <path d="M170 100 Q170 95 175 95 L225 95 Q230 95 230 100 L230 160 Q230 165 225 165 L175 165 Q170 165 170 160 Z" fill="#555" stroke="#333" stroke-width="1"/>
+  
+  <!-- Zipper -->
+  <line x1="175" y1="95" x2="225" y2="95" stroke="#888" stroke-width="2"/>
+  <circle cx="228" cy="95" r="2" fill="#888"/>
+  
+  <!-- Waterproof sealing indicators -->
+  <circle cx="160" cy="80" r="4" fill="#4A90E2" opacity="0.8"/>
+  <circle cx="240" cy="80" r="4" fill="#4A90E2" opacity="0.8"/>
+  <circle cx="160" cy="220" r="4" fill="#4A90E2" opacity="0.8"/>
+  <circle cx="240" cy="220" r="4" fill="#4A90E2" opacity="0.8"/>
+  
+  <!-- Water resistance symbol -->
+  <g transform="translate(280, 120)">
+    <circle cx="0" cy="0" r="25" fill="url(#waterGradient)" opacity="0.9"/>
+    <path d="M-8 -5 Q0 -15 8 -5 Q8 5 0 10 Q-8 5 -8 -5" fill="white"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="bold">IPX4</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Waterproof Backpack Design</text>
+  
+  <!-- Features labels -->
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="12" fill="#666">• Sealed Seams</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="12" fill="#666">• Water-Resistant Zippers</text>
+  <text x="280" y="280" font-family="Arial, sans-serif" font-size="12" fill="#666">• IPX4 Rating</text>
+</svg>

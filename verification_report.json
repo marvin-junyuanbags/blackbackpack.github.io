@@ -1,0 +1,885 @@
+{
+  "summary": {
+    "total_articles": 109,
+    "verified_articles": 109,
+    "articles_with_junyuanbags": 35,
+    "articles_with_webp_images": 40,
+    "articles_with_seo": 109,
+    "failed_articles": [],
+    "verification_time": "2025-08-30T09:31:07.903796"
+  },
+  "detailed_results": [
+    {
+      "file": "3d-printing-backpack-prototyping-rapid-development.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "advanced-backpack-manufacturing-techniques-2024.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "ai-manufacturing-optimization-backpack-production-efficiency.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "anti-theft-backpack-features-security-design-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "automation-technology-backpack-manufacturing-2024.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "b2b-backpack-market-trends-analysis-2024.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-assembly-line-optimization-strategies.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-branding-strategies-corporate-success.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-branding-strategies-custom-logo-placement.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-branding-strategies-market-positioning.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-color-trends-2024-fashion-forecast.html",
+      "has_junyuanbags": true,
+      "has_webp_images": true,
+      "webp_count": 3,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-design-trends-innovations-2024.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-fabric-materials-comparison-guide.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-hardware-quality-standards-durability-testing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-manufacturing-cost-analysis-optimization.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-manufacturing-technology-innovations-2024.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-market-trends-analysis-2024.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-material-selection-guide-manufacturers.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-materials-complete-guide-durability-performance.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-size-optimization-ergonomics-user-comfort-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-testing-procedures-quality-assurance-best-practices.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "backpack-zipper-quality-durability-guide.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "brand-building-backpack-industry-marketing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 2,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "brand-building-marketing-strategies-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "business-management-backpack-industry-insights.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "carbon-footprint-reduction-backpack-manufacturing-sustainability.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "color-trends-backpack-design-2024-market-preferences.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "competitive-analysis-backpack-industry-market-leaders.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "competitive-analysis-backpack-manufacturing-market-positioning.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "corporate-culture-organizational-development-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "corporate-governance-compliance-management-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "corporate-social-responsibility-sustainability-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "cost-optimization-efficiency-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "cost-optimization-strategies-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "custom-backpack-design-process-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "custom-backpack-design-process-step-by-step.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "custom-backpack-manufacturing-b2b-complete-guide.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "customer-experience-management-service-optimization-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "customer-experience-service-innovation-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "customer-relationship-management-b2b-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "customer-relationship-management-b2b-sales-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "customer-service-excellence-backpack-industry-best-practices.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "data-analytics-business-intelligence-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "digital-transformation-backpack-industry-technology.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "digital-transformation-industry-4-0-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "digital-transformation-industry-4-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "eco-friendly-materials-sustainable-backpack-production.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "ecommerce-strategies-backpack-industry-digital-sales.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "environmental-impact-sustainable-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "environmental-management-sustainability-practices-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "ergonomic-backpack-design-principles-guide.html",
+      "has_junyuanbags": true,
+      "has_webp_images": true,
+      "webp_count": 3,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "financial-management-backpack-industry-strategies.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "financial-management-cost-control-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "future-sustainable-manufacturing-backpack-industry-2025.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "global-backpack-market-trends-business-opportunities-2024.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "global-expansion-international-markets-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "global-supply-chain-management-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "globalization-strategies-backpack-industry-expansion.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "human-resource-management-talent-development-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "human-resources-management-backpack-industry-workforce.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "human-resources-talent-development-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "human-resources-workforce-development-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "import-export-regulations-backpack-manufacturing-compliance.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "innovation-design-product-development-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "innovation-management-research-development-strategy-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "innovation-product-development-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "innovation-technology-backpack-industry-future-trends.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "international-trade-backpack-manufacturing-export-strategies.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "international-trade-export-strategies-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "international-trade-global-market-expansion-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "inventory-management-backpack-manufacturing-optimization.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "investment-analysis-backpack-industry-opportunities.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "iot-smart-manufacturing-backpack-production-monitoring.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "laptop-backpack-design-protection-organization-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "lean-manufacturing-principles-backpack-production.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "legal-compliance-intellectual-property-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "market-research-backpack-industry-consumer-insights.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "market-trends-consumer-behavior-backpack-industry.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "marketing-brand-management-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "minimalist-backpack-design-trend-analysis.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "modular-backpack-design-concept-innovation.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "pricing-strategies-custom-backpack-manufacturing-b2b.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "product-development-design-process-backpack-industry.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "production-scaling-strategies-backpack-manufacturing-growth.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "project-management-operational-efficiency-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "quality-assurance-certification-standards-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "quality-control-backpack-production-standards.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "quality-control-testing-backpack-manufacturing-standards.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "quality-testing-standards-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "recycled-materials-backpack-manufacturing-circular-economy.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "recycled-materials-backpack-manufacturing-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 3,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "regulatory-compliance-backpack-industry-standards.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "risk-management-backpack-industry-strategies.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "risk-management-business-continuity-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "smart-backpack-technology-integration-guide.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "strategic-management-competitive-analysis-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "supplier-management-partnership-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "supplier-relationship-management-procurement-strategy-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "supply-chain-management-backpack-industry-best-practices.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "supply-chain-management-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "sustainability-practices-backpack-industry-environmental-impact.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "sustainable-backpack-manufacturing-practices-2024.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "sustainable-manufacturing-environmental-impact-backpack-production.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "sustainable-packaging-eco-friendly-practices-backpack-industry.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "technology-innovation-digital-transformation-backpack-manufacturing.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "technology-innovation-research-development-backpack-manufacturing.html",
+      "has_junyuanbags": true,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "waterproof-backpack-design-technology-sealing-methods.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "waterproof-backpack-testing-standards-guide.html",
+      "has_junyuanbags": false,
+      "has_webp_images": false,
+      "webp_count": 0,
+      "has_seo": true,
+      "status": "success"
+    },
+    {
+      "file": "workforce-training-backpack-manufacturing-skills-development.html",
+      "has_junyuanbags": false,
+      "has_webp_images": true,
+      "webp_count": 1,
+      "has_seo": true,
+      "status": "success"
+    }
+  ]
+}
